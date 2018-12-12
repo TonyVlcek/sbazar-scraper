@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+
+<?php
+
+/** @var \Symfony\Component\Console\Application $app */
+$app = require __DIR__ . '/src/bootstrap.php';
+
+$app->run();

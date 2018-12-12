@@ -1,0 +1,23 @@
+{
+    "name": "wolfpup/sbazar-scraper",
+    "description": "Scrape sbazar.cz the online second-hand store which is lacking any advance search functionality.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TonyVlcek",
+            "email": "vlcek.a@email.cz"
+        }
+    ],
+    "require": {
+        "fabpot/goutte": "^3.2",
+        "symfony/console": "^4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4",
+        "phpstan/phpstan": "^0.10.5"
+    },
+    "autoload": {
+        "psr-4": {"Wolfpup\\SbazarScraper\\": "src/"}
+    }
+}
